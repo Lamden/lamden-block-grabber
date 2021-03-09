@@ -1,0 +1,30 @@
+{
+  "name": "lamden-block-grabber",
+  "version": "0.0.1",
+  "description": "A script to sync blocks to a local database",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodejs app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lamden/lamden-block-grabber.git"
+  },
+  "keywords": [
+    "lamden",
+    "blockchain"
+  ],
+  "author": "Jeff Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lamden/lamden-block-grabber/issues"
+  },
+  "homepage": "https://github.com/Lamden/lamden-block-grabber#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.19",
+    "types-validate-assert": "^1.0.1"
+  }
+}
